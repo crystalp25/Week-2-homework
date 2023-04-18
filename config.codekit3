@@ -21,19 +21,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/Starting Template\/deploy\/img\/headericon.png" : {
-      "ft" : 32768,
-      "iS" : 526,
-      "oA" : 0,
-      "oAP" : "\/Starting Template\/deploy\/img\/headericon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 90,
-      "rq" : 75
-    },
     "\/Starting Template\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -81,7 +68,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/Starting Template\/dev\/global\/scripts.html",
       "oF" : 0
     },
