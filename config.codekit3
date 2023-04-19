@@ -324,8 +324,16 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/gallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/gallery.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -350,6 +358,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/Whats New.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/Whats New.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
