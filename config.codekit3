@@ -21,24 +21,11 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/arrow icon.png" : {
-      "ft" : 32768,
-      "iS" : 598,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/arrow icon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/arrow2 icon.png" : {
+    "\/deploy\/img\/arrow2icon.png" : {
       "ft" : 32768,
       "iS" : 252,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/arrow2 icon.png",
+      "oAP" : "\/deploy\/img\/arrow2icon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -47,11 +34,24 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/basic organization.webp" : {
+    "\/deploy\/img\/arrowicon.png" : {
+      "ft" : 32768,
+      "iS" : 598,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/arrowicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/basicorganization.webp" : {
       "ft" : 8388608,
       "iS" : 423610,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/basic organization.webp",
+      "oAP" : "\/deploy\/img\/basicorganization.webp",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -71,12 +71,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/cleaning .jpeg" : {
+    "\/deploy\/img\/cleaning.jpeg" : {
       "ft" : 16384,
       "iS" : 27007,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/cleaning .jpg",
+      "oAP" : "\/deploy\/img\/cleaning.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -84,12 +84,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/closet image 1.jpeg" : {
+    "\/deploy\/img\/closetimage1.jpeg" : {
       "ft" : 16384,
       "iS" : 371350,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/closet image 1.jpg",
+      "oAP" : "\/deploy\/img\/closetimage1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -110,11 +110,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/facebook icon.png" : {
+    "\/deploy\/img\/facebookicon.png" : {
       "ft" : 32768,
       "iS" : 487,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/facebook icon.png",
+      "oAP" : "\/deploy\/img\/facebookicon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -123,11 +123,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/insta icon.png" : {
+    "\/deploy\/img\/instaicon.png" : {
       "ft" : 32768,
       "iS" : 957,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/insta icon.png",
+      "oAP" : "\/deploy\/img\/instaicon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -162,12 +162,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/next clean.jpeg" : {
+    "\/deploy\/img\/nextclean.jpeg" : {
       "ft" : 16384,
       "iS" : 161073,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/next clean.jpg",
+      "oAP" : "\/deploy\/img\/nextclean.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -186,12 +186,12 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/organized 1.jpeg" : {
+    "\/deploy\/img\/organized1.jpeg" : {
       "ft" : 16384,
       "iS" : 2403190,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/organized 1.jpg",
+      "oAP" : "\/deploy\/img\/organized1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -199,12 +199,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/person writing.jpeg" : {
+    "\/deploy\/img\/personwriting.jpeg" : {
       "ft" : 16384,
       "iS" : 308784,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/person writing.jpg",
+      "oAP" : "\/deploy\/img\/personwriting.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -212,11 +212,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/phone icon.png" : {
+    "\/deploy\/img\/phoneicon.png" : {
       "ft" : 32768,
       "iS" : 355,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/phone icon.png",
+      "oAP" : "\/deploy\/img\/phoneicon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -225,11 +225,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/search icon.png" : {
+    "\/deploy\/img\/searchicon.png" : {
       "ft" : 32768,
       "iS" : 1997,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/search icon.png",
+      "oAP" : "\/deploy\/img\/searchicon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -249,11 +249,11 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/deploy\/img\/twitter icon.png" : {
+    "\/deploy\/img\/twittericon.png" : {
       "ft" : 32768,
       "iS" : 721,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/twitter icon.png",
+      "oAP" : "\/deploy\/img\/twittericon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -262,24 +262,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/youtube icon-1.png" : {
+    "\/deploy\/img\/youtubeicon.png" : {
       "ft" : 32768,
       "iS" : 598,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/youtube icon-1.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/youtube icon.png" : {
-      "ft" : 32768,
-      "iS" : 598,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/youtube icon.png",
+      "oAP" : "\/deploy\/img\/youtubeicon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -321,6 +308,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/whats new.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/whats new.html",
       "oF" : 0
     },
     "\/dev\/content\/whats new.kit" : {
