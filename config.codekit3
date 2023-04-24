@@ -307,6 +307,30 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/gallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/gallery.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/whats new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/whats new.html",
+      "oF" : 0
+    },
     "\/dev\/global\/footer.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -362,7 +386,7 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/deploy\/js\/scripts-min.js",
-      "oF" : 2,
+      "oF" : 3,
       "sC" : 3,
       "tS" : 0
     },
