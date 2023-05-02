@@ -11,9 +11,10 @@
     }
 
     #selection{
-        @mixin md {
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas: ". which-service location .";
+
+    @include md{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: ". which-service location .";
     }
 }
 }
