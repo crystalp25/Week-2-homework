@@ -1,6 +1,14 @@
 #whats-new{
     display: grid;
-
     grid-template-columns: 1fr;
 
-}
+    @include md{
+        grid-template-columns: 
+        grid-template-areas 
+    }
+
+    @include lg{
+        grid-template-columns: 
+        grid-template-areas 
+    }
+} 
