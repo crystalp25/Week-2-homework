@@ -1,14 +1,14 @@
 #sub-hero{
     display: grid;
-
     grid-template-columns: 1fr;
 
-}
+    @include md{
+        grid-template-columns: 16px auto auto 16px
+        grid-template-areas ". section1 section2 .";
+    }
 
-#section1{
-    background-color: aqua;
-}
-
-#section2{
-    background-color: blue;
-}
+    @include lg{
+        grid-template-columns: 16px auto auto 16px
+        grid-template-areas ". section1 section2 .";
+    }
+} 
