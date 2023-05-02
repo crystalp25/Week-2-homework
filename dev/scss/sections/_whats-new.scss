@@ -3,12 +3,15 @@
     grid-template-columns: 1fr;
 
     @include md{
-        grid-template-columns: 
-        grid-template-areas 
+        grid-template-columns: 15px 1fr 1fr 15px
+        grid-template-areas ". basic clean ."
+        ". refurbish office ."
+        ". donation ."
     }
 
     @include lg{
-        grid-template-columns: 
-        grid-template-areas 
+        grid-template-columns: 15px 1fr 1fr 1fr 15px
+        grid-template-areas ". basic clean refurbish."
+        ". office donation ."
     }
 } 
