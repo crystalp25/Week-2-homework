@@ -1,6 +1,19 @@
 #hero{
     display: grid;
-
     grid-template-columns: 1fr;
 
+    #which-service{
+        background-color: red;
+    }
+
+    #location{
+        background-color: blue;
+    }
+
+    #selection{
+        @mixin md {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: ". which-service location .";
+    }
+}
 }
