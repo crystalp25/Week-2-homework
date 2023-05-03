@@ -376,6 +376,10 @@ textarea {
 #hero {
   display: grid;
   grid-template-columns: 1fr; }
+  #hero #which-service {
+    grid-area: which-service; }
+  #hero #location {
+    grid-area: location; }
   @media (min-width: 768px) {
     #hero #selection {
       grid-template-columns: 15px 1fr 1fr 15px;

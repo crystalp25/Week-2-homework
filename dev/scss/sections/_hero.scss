@@ -1,6 +1,13 @@
 #hero{
     display: grid;
     grid-template-columns: 1fr;
+   
+    #which-service{
+        grid-area: which-service;
+    }
+    #location{
+        grid-area: location;
+    }
 
     #selection{
 
