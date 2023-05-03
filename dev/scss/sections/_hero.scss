@@ -1,24 +1,27 @@
-#hero{
+#hero {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+#selection {
+    display: grid; 
+    grid-template-columns: 1fr;
    
-    #which-service{
+    #which-service {
         grid-area: which-service;
     }
-    #location{
+    
+    #location {
         grid-area: location;
     }
 
-    #selection{
-
-    @include md{
+    @include md {
         grid-template-columns: 15px 1fr 1fr 15px;
         grid-template-areas: ". which-service location .";
     }
-    @include lg{
+
+    @include lg {
         grid-template-columns: 15px 1fr 1fr 15px;
         grid-template-areas: ". which-service location .";
     }
-}
-
 }

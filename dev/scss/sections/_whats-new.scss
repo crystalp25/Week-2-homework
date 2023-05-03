@@ -2,6 +2,22 @@
     display: grid;
     grid-template-columns: 1fr;
 
+    #basic{
+        grid-area: basic;
+    }
+    #clean{
+        grid-area: clean;
+    }
+    #refurbish{
+        grid-area: refurbish;
+    }
+    #office{
+        grid-area: office;
+    }
+    #donation{
+        grid-area: donation;
+    }
+
     @include md{
         grid-template-columns: 15px 1fr 1fr 15px
         grid-template-areas ". basic clean ."

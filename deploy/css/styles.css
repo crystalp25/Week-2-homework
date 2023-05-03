@@ -376,21 +376,35 @@ textarea {
 #hero {
   display: grid;
   grid-template-columns: 1fr; }
-  #hero #which-service {
+
+#selection {
+  display: grid;
+  grid-template-columns: 1fr; }
+  #selection #which-service {
     grid-area: which-service; }
-  #hero #location {
+  #selection #location {
     grid-area: location; }
   @media (min-width: 768px) {
-    #hero #selection {
+    #selection {
       grid-template-columns: 15px 1fr 1fr 15px;
       grid-template-areas: ". which-service location ."; } }
   @media (min-width: 1024px) {
-    #hero #selection {
+    #selection {
       grid-template-columns: 15px 1fr 1fr 15px;
       grid-template-areas: ". which-service location ."; } }
 #whats-new {
   display: grid;
   grid-template-columns: 1fr; }
+  #whats-new #basic {
+    grid-area: basic; }
+  #whats-new #clean {
+    grid-area: clean; }
+  #whats-new #refurbish {
+    grid-area: refurbish; }
+  #whats-new #office {
+    grid-area: office; }
+  #whats-new #donation {
+    grid-area: donation; }
   @media (min-width: 768px) {
     #whats-new {
       grid-template-columns: 15px 1fr 1fr 15px grid-template-areas ". basic clean ." ". refurbish office ." ". donation ."; } }
