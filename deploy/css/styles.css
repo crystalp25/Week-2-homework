@@ -352,9 +352,15 @@ textarea {
 /* =============
     Footer
 ============= */
-#header {
+header {
   display: grid;
   grid-template-columns: 1fr; }
+  header nav {
+    background-color: blue;
+    display: flex; }
+    header nav img {
+      width: 136px;
+      height: auto; }
 
 #footer {
   display: grid;

@@ -1,5 +1,31 @@
-#header{
+header{
     display: grid;
     grid-template-columns: 1fr;
 
+    nav{
+        background-color: blue;
+        display: flex; 
+
+        img{
+            width: 136px;
+            height: auto;
+        }
+    }
+
+    section{
+        form{
+            input{
+
+            }
+            button{
+                img{
+
+                }
+            }
+
+        }
+
+
+
+    }
 }
