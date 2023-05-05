@@ -225,9 +225,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/searchicon.png" : {
+    "\/deploy\/img\/search.png" : {
       "ft" : 32768,
       "iS" : 1997,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/search.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/searchicon.png" : {
+      "ft" : 32768,
+      "iS" : 415,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/searchicon.png",
       "oF" : 0,

@@ -6,22 +6,29 @@
 #selection {
     display: grid; 
     grid-template-columns: 1fr;
+    grid-template-areas:
+    "which-service"
+    "location";
    
     #which-service {
         grid-area: which-service;
+        background-color: orange;
     }
     
     #location {
         grid-area: location;
+        background-color: red;
     }
 
     @include md {
-        grid-template-columns: 15px 1fr 1fr 15px;
-        grid-template-areas: ". which-service location .";
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+        "which-service location";
     }
 
     @include lg {
-        grid-template-columns: 15px 1fr 1fr 15px;
-        grid-template-areas: ". which-service location .";
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+        "which-service location";
     }
 }

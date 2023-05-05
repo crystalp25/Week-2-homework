@@ -13,19 +13,31 @@ header{
     }
 
     section{
+        padding: 24px;
+
         form{
+            display: flex; 
+            align-items: stretch;
+            justify-content: space-between;
+            gap: 10px;
             input{
+                border: none;
+                width: 100%;
+                border-bottom: 1px solid blue;
 
             }
             button{
+                background-color: purple;
+                border-radius: 3.5px;
+                border: none; 
+                padding: 6px 11px 6px 11px; 
+
                 img{
 
                 }
             }
 
         }
-
-
 
     }
 }

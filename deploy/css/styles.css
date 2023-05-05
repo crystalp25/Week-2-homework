@@ -361,6 +361,22 @@ header {
     header nav img {
       width: 136px;
       height: auto; }
+  header section {
+    padding: 24px; }
+    header section form {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      gap: 10px; }
+      header section form input {
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid blue; }
+      header section form button {
+        background-color: purple;
+        border-radius: 3.5px;
+        border: none;
+        padding: 6px 11px 6px 11px; }
 
 #footer {
   display: grid;
@@ -385,19 +401,22 @@ header {
 
 #selection {
   display: grid;
-  grid-template-columns: 1fr; }
+  grid-template-columns: 1fr;
+  grid-template-areas: "which-service" "location"; }
   #selection #which-service {
-    grid-area: which-service; }
+    grid-area: which-service;
+    background-color: orange; }
   #selection #location {
-    grid-area: location; }
+    grid-area: location;
+    background-color: red; }
   @media (min-width: 768px) {
     #selection {
-      grid-template-columns: 15px 1fr 1fr 15px;
-      grid-template-areas: ". which-service location ."; } }
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: "which-service location"; } }
   @media (min-width: 1024px) {
     #selection {
-      grid-template-columns: 15px 1fr 1fr 15px;
-      grid-template-areas: ". which-service location ."; } }
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: "which-service location"; } }
 #whats-new {
   display: grid;
   grid-template-columns: 1fr; }
