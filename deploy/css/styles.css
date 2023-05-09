@@ -410,12 +410,16 @@ header {
       color: white; }
     #selection #which-service p {
       color: white; }
+    #selection #which-service a {
+      color: white; }
     #selection #which-service img {
       width: 14.31px; }
   #selection #location {
     grid-area: location;
     background-color: #959BD3; }
     #selection #location h4 {
+      color: white; }
+    #selection #location a {
       color: white; }
     #selection #location img {
       width: 14.31px; }
