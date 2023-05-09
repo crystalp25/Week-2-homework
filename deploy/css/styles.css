@@ -448,11 +448,34 @@ header {
       grid-template-columns: 15px 1fr 1fr 1fr 15px grid-template-areas ". basic clean refurbish." ". office donation ."; } }
 #sub-hero {
   display: grid;
-  grid-template-columns: 1fr; }
+  grid-template-columns: 1fr;
+  grid-template-areas: "section1" "section2"; }
   #sub-hero #section1 {
-    grid-area: section1; }
+    grid-area: section1;
+    background-color: #C0D1E1; }
+    #sub-hero #section1 h1 {
+      color: black; }
+    #sub-hero #section1 button {
+      background-color: #7A81C3;
+      border: none;
+      padding: 4px 11px; }
+      #sub-hero #section1 button a {
+        color: white; }
+    #sub-hero #section1 img {
+      width: 113px; }
   #sub-hero #section2 {
-    grid-area: section2; }
+    grid-area: section2;
+    background-color: #C0D1E1; }
+    #sub-hero #section2 h1 {
+      color: black; }
+    #sub-hero #section2 button {
+      background-color: #7A81C3;
+      border: none;
+      padding: 4px 11px; }
+      #sub-hero #section2 button a {
+        color: white; }
+    #sub-hero #section2 img {
+      width: 113px; }
   @media (min-width: 768px) {
     #sub-hero {
       grid-template-columns: 16px auto auto 16px;
