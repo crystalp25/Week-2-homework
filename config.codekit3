@@ -21,6 +21,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/2.png" : {
+      "ft" : 32768,
+      "iS" : 19594,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/arrow2icon.png" : {
       "ft" : 32768,
       "iS" : 252,
@@ -115,6 +128,19 @@
       "iS" : 487,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/facebookicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/icon.png" : {
+      "ft" : 32768,
+      "iS" : 20510,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/icon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
