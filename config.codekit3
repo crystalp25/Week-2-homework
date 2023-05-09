@@ -21,19 +21,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/2.png" : {
-      "ft" : 32768,
-      "iS" : 19594,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/arrow2icon.png" : {
       "ft" : 32768,
       "iS" : 252,
@@ -77,6 +64,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/build.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/clean.jpeg" : {
+      "ft" : 16384,
+      "iS" : 161073,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/clean.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -136,19 +136,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/icon.png" : {
-      "ft" : 32768,
-      "iS" : 20510,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/icon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/instaicon.png" : {
       "ft" : 32768,
       "iS" : 957,
@@ -190,7 +177,7 @@
     },
     "\/deploy\/img\/nextclean.jpeg" : {
       "ft" : 16384,
-      "iS" : 161073,
+      "iS" : 20510,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/nextclean.jpg",
@@ -225,9 +212,22 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/personwriting.jpeg" : {
+    "\/deploy\/img\/person.jpeg" : {
       "ft" : 16384,
       "iS" : 308784,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/person.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/personwriting.jpeg" : {
+      "ft" : 16384,
+      "iS" : 19594,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/personwriting.jpg",

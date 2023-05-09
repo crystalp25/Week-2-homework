@@ -3,7 +3,7 @@ header{
     grid-template-columns: 1fr;
 
     nav{
-        background-color: blue;
+        background-color: $darkblue;
         display: flex; 
 
         img{
@@ -23,11 +23,11 @@ header{
             input{
                 border: none;
                 width: 100%;
-                border-bottom: 1px solid blue;
+                border-bottom: 1px solid $darkgreen;
 
             }
             button{
-                background-color: purple;
+                background-color: $lightpurple;
                 border-radius: 3.5px;
                 border: none; 
                 padding: 6px 11px 6px 11px; 
