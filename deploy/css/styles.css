@@ -403,25 +403,34 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: "which-service" "location"; }
-  #selection #which-service {
-    grid-area: which-service;
+  #selection #one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #7A81C3; }
-    #selection #which-service h2 {
+    #selection #one #which-service {
+      grid-area: which-service; }
+      #selection #one #which-service h2 {
+        color: white; }
+      #selection #one #which-service p {
+        color: white; }
+    #selection #one a {
       color: white; }
-    #selection #which-service p {
-      color: white; }
-    #selection #which-service a {
-      color: white; }
-    #selection #which-service img {
+    #selection #one img {
       width: 14.31px; }
-  #selection #location {
-    grid-area: location;
+  #selection #two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #959BD3; }
-    #selection #location h4 {
+    #selection #two #location {
+      grid-area: location;
+      background-color: #959BD3; }
+      #selection #two #location h4 {
+        color: white; }
+    #selection #two a {
       color: white; }
-    #selection #location a {
-      color: white; }
-    #selection #location img {
+    #selection #two img {
       width: 14.31px; }
   @media (min-width: 768px) {
     #selection {

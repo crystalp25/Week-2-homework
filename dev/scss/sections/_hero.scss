@@ -10,26 +10,32 @@
     "which-service"
     "location";
    
-    #which-service {
-        grid-area: which-service;
-        background-color: $darkpurple;
-        h2{color: white}
-        p{color: white}
-        a{color: white}
-        img{
-            width: 14.31px 
+    #one{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    background-color: $darkpurple;
+        #which-service {
+            grid-area: which-service;
+            h2{color: white}
+            p{color: white}
         }
-
+        a{color: white}
+        img{width: 14.31px}
     }
     
-    #location {
-        grid-area: location;
-        background-color: $lightpurple;
-        h4{color: white}
-        a{color: white}
-        img{
-            width: 14.31px
-        }
+    #two{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    background-color: $lightpurple;
+         #location {
+              grid-area: location;
+              background-color: $lightpurple;
+             h4{color: white}
+         }
+         a{color: white}
+         img{width: 14.31px}
     }
         
 
