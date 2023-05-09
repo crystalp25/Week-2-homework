@@ -452,7 +452,9 @@ header {
   grid-template-areas: "section1" "section2"; }
   #sub-hero #section1 {
     grid-area: section1;
-    background-color: #C0D1E1; }
+    background-color: #C0D1E1;
+    margin-top: 16px;
+    margin-right: 8px; }
     #sub-hero #section1 h1 {
       color: black; }
     #sub-hero #section1 button {
@@ -465,7 +467,9 @@ header {
       width: 113px; }
   #sub-hero #section2 {
     grid-area: section2;
-    background-color: #C0D1E1; }
+    background-color: #C0D1E1;
+    margin-top: 16px;
+    margin-left: 8px; }
     #sub-hero #section2 h1 {
       color: black; }
     #sub-hero #section2 button {
@@ -478,9 +482,9 @@ header {
       width: 113px; }
   @media (min-width: 768px) {
     #sub-hero {
-      grid-template-columns: 16px auto auto 16px;
+      grid-template-columns: 16px 1fr 1fr 16px;
       grid-template-areas: ". section1 section2 ."; } }
   @media (min-width: 1024px) {
     #sub-hero {
-      grid-template-columns: 16px auto auto 16px;
+      grid-template-columns: 16px 1fr 1fr 16px;
       grid-template-areas: ". section1 section2 ."; } }
