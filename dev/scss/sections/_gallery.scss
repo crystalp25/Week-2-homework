@@ -1,20 +1,73 @@
-#gallery{
+#gallery {
     display: grid;
     grid-template-columns: 1fr;
 
-    @include md{
-        ul{
-            display: grid; 
-            grid-template-columns: 1fr 1fr; 
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "imgone"
+            "imgtwo";
+
+        .imgone {
+            grid-area: imgone;
+            
+            height: 400px;
+            background-image: url(../img/organized1.jpeg);
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .imgtwo {
+            grid-area: imgtwo;
+
+            height: 400px;
+            background-image: url(../img/shoes.webp);
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .imgthree {
+            grid-area: imgthree;
+
+            height: 400px;
+            background-image: url(../img/clean.jpeg);
+            background-size: cover;
+            background-position: center center;
+            display: none;
+        }
+        @include md {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "imgone    imgtwo";
+
+                .imgone, .imgtwo{
+                    height: 900px;
+                } 
+        }
+        @include lg {
+            grid-template-columns: 1fr 1fr;
+            margin: 20px; 
+            grid-template-areas:
+                "imgone    imgtwo"
+                "imgone   imgthree";
+            
+            .imgthree{
+                display: inline; 
+            }
+
+            .imgtwo, .imgthree{
+                height: 400px; 
+            }
+
+            .imgone{
+                height: auto; 
+            }
+
         }
     }
-
-    @include lg{
-        margin: 0 17px;
-        ul{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-}
 
 }

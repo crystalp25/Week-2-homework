@@ -385,16 +385,49 @@ header {
 #gallery {
   display: grid;
   grid-template-columns: 1fr; }
-  @media (min-width: 768px) {
-    #gallery ul {
-      display: grid;
-      grid-template-columns: 1fr 1fr; } }
-  @media (min-width: 1024px) {
-    #gallery {
-      margin: 0 17px; }
+  #gallery ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "imgone" "imgtwo"; }
+    #gallery ul .imgone {
+      grid-area: imgone;
+      height: 400px;
+      background-image: url(../img/organized1.jpeg);
+      background-size: cover;
+      background-position: center center; }
+    #gallery ul .imgtwo {
+      grid-area: imgtwo;
+      height: 400px;
+      background-image: url(../img/shoes.webp);
+      background-size: cover;
+      background-position: center center; }
+    #gallery ul .imgthree {
+      grid-area: imgthree;
+      height: 400px;
+      background-image: url(../img/clean.jpeg);
+      background-size: cover;
+      background-position: center center;
+      display: none; }
+    @media (min-width: 768px) {
       #gallery ul {
-        display: grid;
-        grid-template-columns: 1fr 1fr; } }
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "imgone    imgtwo"; }
+        #gallery ul .imgone, #gallery ul .imgtwo {
+          height: 900px; } }
+    @media (min-width: 1024px) {
+      #gallery ul {
+        grid-template-columns: 1fr 1fr;
+        margin: 20px;
+        grid-template-areas: "imgone    imgtwo" "imgone   imgthree"; }
+        #gallery ul .imgthree {
+          display: inline; }
+        #gallery ul .imgtwo, #gallery ul .imgthree {
+          height: 400px; }
+        #gallery ul .imgone {
+          height: auto; } }
 #hero {
   display: grid;
   grid-template-columns: 1fr; }
@@ -467,7 +500,8 @@ header {
     grid-area: section1;
     background-color: #C0D1E1;
     margin-top: 16px;
-    margin-right: 8px; }
+    margin-right: 8px;
+    margin-bottom: 16px; }
     #sub-hero #section1 h1 {
       color: black; }
     #sub-hero #section1 button {
@@ -482,7 +516,8 @@ header {
     grid-area: section2;
     background-color: #C0D1E1;
     margin-top: 16px;
-    margin-left: 8px; }
+    margin-left: 8px;
+    margin-bottom: 16px; }
     #sub-hero #section2 h1 {
       color: black; }
     #sub-hero #section2 button {
