@@ -380,7 +380,11 @@ header {
 
 #footer {
   display: grid;
-  grid-template-columns: 1fr; }
+  grid-template-columns: 1fr;
+  background-color: #618AB4; }
+  #footer .con #img {
+    width: 20.48px;
+    height: auto; }
 
 #gallery {
   display: grid;
@@ -473,66 +477,96 @@ header {
     #selection {
       grid-template-columns: 1fr 2fr;
       grid-template-areas: "which-service location"; } }
-#whats-new {
-  display: grid;
-  grid-template-columns: 1fr; }
-  #whats-new #basic {
-    grid-area: basic; }
-  #whats-new #clean {
-    grid-area: clean; }
-  #whats-new #refurbish {
-    grid-area: refurbish; }
-  #whats-new #office {
-    grid-area: office; }
-  #whats-new #donation {
-    grid-area: donation; }
+#whats-new article {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; }
+  #whats-new article aside .textdetail {
+    background-color: #C0D1E1;
+    padding: 15px; }
+    #whats-new article aside .textdetail h2 {
+      margin: 0; }
+  #whats-new article aside figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 164px;
+    margin: 0;
+    overflow: hidden; }
   @media (min-width: 768px) {
-    #whats-new {
-      grid-template-columns: 15px 1fr 1fr 15px grid-template-areas ". basic clean ." ". refurbish office ." ". donation ."; } }
+    #whats-new article {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 25px 1%; }
+      #whats-new article aside {
+        width: 48%; }
+      #whats-new article aside:last-child {
+        margin: 0 auto; } }
   @media (min-width: 1024px) {
-    #whats-new {
-      grid-template-columns: 15px 1fr 1fr 1fr 15px grid-template-areas ". basic clean refurbish." ". office donation ."; } }
+    #whats-new article {
+      justify-content: center; }
+      #whats-new article aside {
+        width: 31%; }
+      #whats-new article aside:last-child {
+        margin: 0; } }
 #sub-hero {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-areas: "section1" "section2"; }
   #sub-hero #section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     grid-area: section1;
     background-color: #C0D1E1;
-    margin-top: 16px;
-    margin-right: 8px;
-    margin-bottom: 16px; }
-    #sub-hero #section1 h1 {
+    width: auto;
+    height: 145px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    #sub-hero #section1 #article h1 {
       color: black; }
-    #sub-hero #section1 button {
+    #sub-hero #section1 #article button {
       background-color: #7A81C3;
       border: none;
       padding: 4px 11px; }
-      #sub-hero #section1 button a {
+      #sub-hero #section1 #article button a {
         color: white; }
     #sub-hero #section1 img {
       width: 113px; }
   #sub-hero #section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     grid-area: section2;
     background-color: #C0D1E1;
-    margin-top: 16px;
-    margin-left: 8px;
-    margin-bottom: 16px; }
-    #sub-hero #section2 h1 {
+    width: auto;
+    height: 145px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    #sub-hero #section2 #article h1 {
       color: black; }
-    #sub-hero #section2 button {
+    #sub-hero #section2 #article button {
       background-color: #7A81C3;
       border: none;
       padding: 4px 11px; }
-      #sub-hero #section2 button a {
+      #sub-hero #section2 #article button a {
         color: white; }
     #sub-hero #section2 img {
       width: 113px; }
   @media (min-width: 768px) {
     #sub-hero {
       grid-template-columns: 16px 1fr 1fr 16px;
-      grid-template-areas: ". section1 section2 ."; } }
+      grid-template-areas: ". section1 section2 ."; }
+      #sub-hero #section2 {
+        margin-left: 8px; }
+      #sub-hero #section1 {
+        margin-right: 8px; } }
   @media (min-width: 1024px) {
     #sub-hero {
       grid-template-columns: 16px 1fr 1fr 16px;
-      grid-template-areas: ". section1 section2 ."; } }
+      grid-template-areas: ". section1 section2 ."; }
+      #sub-hero #section2 {
+        margin-right: 225px; }
+      #sub-hero #section1 {
+        margin-left: 225px; } }

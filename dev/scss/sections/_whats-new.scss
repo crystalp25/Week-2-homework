@@ -1,33 +1,53 @@
-#whats-new{
-    display: grid;
-    grid-template-columns: 1fr;
+#whats-new article{
 
-    #basic{
-        grid-area: basic;
-    }
-    #clean{
-        grid-area: clean;
-    }
-    #refurbish{
-        grid-area: refurbish;
-    }
-    #office{
-        grid-area: office;
-    }
-    #donation{
-        grid-area: donation;
-    }
+    display: flex; 
+    flex-direction: column; 
+    gap: 25px; 
 
+    aside{
+
+        .textdetail{
+            background-color: $middleblue; 
+            padding: 15px; 
+            h2{
+                margin: 0; 
+            }
+        }
+
+        figure{
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            height: 164px;
+            margin: 0;
+            overflow: hidden;
+        }
+    }
+    
     @include md{
-        grid-template-columns: 15px 1fr 1fr 15px
-        grid-template-areas ". basic clean ."
-        ". refurbish office ."
-        ". donation ."
+        flex-direction: row; 
+        flex-wrap: wrap;  
+        justify-content: space-between;
+        gap: 25px 1%; 
+
+        aside{
+            width: 48%; 
+        }
+
+        aside:last-child{
+            margin: 0 auto; 
+        }
     }
 
     @include lg{
-        grid-template-columns: 15px 1fr 1fr 1fr 15px
-        grid-template-areas ". basic clean refurbish."
-        ". office donation ."
+        justify-content: center;
+        aside{
+            width: 31%; 
+        }
+
+        aside:last-child{
+            margin: 0;
+        }
     }
+
 } 

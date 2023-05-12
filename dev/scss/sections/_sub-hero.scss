@@ -6,49 +6,73 @@
     "section2";
     
     #section1{
-        grid-area: section1;
-        background-color: $middleblue;
-        h1{color: black}
-        button{
-            background-color: $darkpurple;
-            border: none;
-            padding: 4px 11px; 
-            a{color: white}
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    grid-area: section1;
+    background-color: $middleblue;
+    width: auto;
+    height: 145px; 
+        #article{
+            h1{color: black}
+            button{
+                background-color: $darkpurple;
+                border: none;
+                padding: 4px 11px; 
+                a{color: white}
+            }
         }
         img{
             width: 113px
         }
-        margin-top: 16px;
-        margin-right: 8px;
-        margin-bottom: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
 
     }
     #section2{
-        grid-area: section2;
-        background-color: $middleblue;
-        h1{color: black}
-        button{
-            background-color: $darkpurple;
-            border: none;
-            padding: 4px 11px; 
-            a{color: white}
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    grid-area: section2;
+    background-color: $middleblue;
+    width: auto;
+    height: 145px; 
+        #article{
+            h1{color: black}
+            button{
+                background-color: $darkpurple;
+                border: none;
+                padding: 4px 11px; 
+                a{color: white}
+            }
         }
         img{
             width: 113px
         }
-        margin-top: 16px;
-        margin-left: 8px;
-        margin-bottom: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
 
     }
 
     @include md{
         grid-template-columns: 16px 1fr 1fr 16px;
         grid-template-areas: ". section1 section2 .";
+        #section2{
+            margin-left: 8px; 
+        }
+        #section1{
+            margin-right: 8px;
+        }
     }
 
     @include lg{
         grid-template-columns: 16px 1fr 1fr 16px;
         grid-template-areas: ". section1 section2 .";
+        #section2{
+            margin-right: 225px; 
+        }
+        #section1{
+            margin-left: 225px;
+        }
     }
 } 
