@@ -382,8 +382,11 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #618AB4; }
-  #footer .con #img {
-    width: 20.48px;
+  #footer div img {
+    width: 20px;
+    height: auto; }
+  #footer aside img {
+    width: 20px;
     height: auto; }
 
 #gallery {
