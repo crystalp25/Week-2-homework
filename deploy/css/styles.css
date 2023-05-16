@@ -446,6 +446,72 @@ header {
     border-bottom: 1px solid #C8C7BC; }
   #footer article .mas {
     border-bottom: 1px solid #C8C7BC; }
+  #footer .news {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px; }
+    #footer .news b {
+      padding: 15px; }
+    #footer .news button {
+      margin-top: 10px;
+      margin-left: 90px; }
+    #footer .news input {
+      border: none;
+      background-color: #E4EEF8;
+      height: 50px;
+      width: 320px; }
+  #footer .follow {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px; }
+    #footer .follow div img {
+      padding: 5px; }
+  @media (min-width: 768px) {
+    #footer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: flex-start; }
+      #footer .news {
+        align-items: center;
+        padding: 20px; }
+        #footer .news b {
+          padding-bottom: 20px; }
+        #footer .news button {
+          margin-top: 10px;
+          margin-left: 90px; }
+      #footer .follow {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center; }
+        #footer .follow b {
+          padding-bottom: 20px; }
+        #footer .follow div img {
+          padding: 5px; } }
+  @media (min-width: 1024px) {
+    #footer {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: flex-start; }
+      #footer .news {
+        align-items: center;
+        padding: 20px; }
+        #footer .news b {
+          padding-bottom: 20px; }
+        #footer .news button {
+          margin-top: 10px;
+          margin-left: 90px; }
+      #footer .follow {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center; }
+        #footer .follow b {
+          padding-bottom: 20px; }
+        #footer .follow div img {
+          padding: 5px; } }
   #footer div img {
     width: 20px;
     height: auto; }
@@ -542,6 +608,9 @@ header {
       text-decoration: underline; }
     #selection #one img {
       width: 14.31px; }
+    #selection #one a {
+      display: flex;
+      align-items: center; }
   #selection #two {
     display: flex;
     align-items: center;
@@ -568,8 +637,13 @@ header {
       text-decoration: underline; }
     #selection #two img {
       width: 14.31px; }
+    #selection #two a {
+      display: flex;
+      align-items: center; }
   #selection a:link {
     text-decoration: none; }
+  #selection span {
+    display: none; }
   @media (min-width: 768px) {
     #selection {
       grid-template-columns: 1fr 2fr;
@@ -577,7 +651,9 @@ header {
   @media (min-width: 1024px) {
     #selection {
       grid-template-columns: 1fr 1fr;
-      grid-template-areas: "which-service location"; } }
+      grid-template-areas: "which-service location"; }
+      #selection span {
+        display: inline; } }
   @media (min-width: 1200px) {
     #selection {
       grid-template-columns: 1fr 1fr;
@@ -585,7 +661,9 @@ header {
       #selection #two {
         padding-right: 200px; }
       #selection #one {
-        padding-left: 200px; } }
+        padding-left: 200px; }
+      #selection span {
+        display: inline; } }
 #whats-new article {
   display: flex;
   flex-direction: column;
@@ -604,18 +682,20 @@ header {
       text-decoration: underline; }
   #whats-new article button:hover {
     background-color: #5E6DFD; }
-  #whats-new article aside .textdetail {
-    background-color: #E4EEF8;
-    padding: 15px; }
-    #whats-new article aside .textdetail h2 {
-      margin: 0; }
-  #whats-new article aside figure {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 164px;
-    margin: 0;
-    overflow: hidden; }
+  #whats-new article aside {
+    background-color: #E4EEF8; }
+    #whats-new article aside .textdetail {
+      background-color: #E4EEF8;
+      padding: 15px; }
+      #whats-new article aside .textdetail h2 {
+        margin: 0; }
+    #whats-new article aside figure {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 164px;
+      margin: 0;
+      overflow: hidden; }
   @media (min-width: 768px) {
     #whats-new article {
       flex-direction: row;

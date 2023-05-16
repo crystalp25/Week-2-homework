@@ -27,6 +27,11 @@
         a{color: white}
         a:hover{ text-decoration: underline;}
         img{width: 14.31px}
+
+        a{
+            display: flex;
+            align-items: center;
+        }
     }
     
     #two{
@@ -48,9 +53,18 @@
          a{color: white}
          a:hover{ text-decoration: underline;}
          img{width: 14.31px}
+
+         a{
+            display: flex;
+            align-items: center;
+        }
     }
    
     a:link{ text-decoration: none;}
+
+    span{
+        display: none;
+    }
 
     @include md {
         grid-template-columns: 1fr 2fr;
@@ -62,6 +76,10 @@
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "which-service location";
+
+        span{
+            display: inline;
+        }
   
     }
 
@@ -75,6 +93,10 @@
 
         #one{
             padding-left: 200px;
+        }
+
+        span{
+            display: inline;
         }
     }
 }

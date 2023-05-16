@@ -20,6 +20,7 @@
     button:hover{background-color: $neonpurple;}
 
     aside{
+        background-color: $lightblue;
 
         .textdetail{
             background-color: $lightblue; 
@@ -38,6 +39,7 @@
             overflow: hidden;
         }
     }
+
     
     @include md{
         flex-direction: row; 
