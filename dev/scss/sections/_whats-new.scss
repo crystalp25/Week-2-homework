@@ -3,6 +3,10 @@
     display: flex; 
     flex-direction: column; 
     gap: 25px; 
+
+    h3{
+        padding-left: 20px;
+    }
     
     button{
         background-color: $darkpurple;
@@ -11,7 +15,9 @@
         a{color: white}
 
         a:link{ text-decoration: none;}
+        a:hover{text-decoration: underline;}
     }
+    button:hover{background-color: $neonpurple;}
 
     aside{
 
@@ -37,7 +43,7 @@
         flex-direction: row; 
         flex-wrap: wrap;  
         justify-content: space-between;
-        gap: 25px 1%; 
+        gap: 17px 1%; 
 
         aside{
             width: 48%; 

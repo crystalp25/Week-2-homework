@@ -14,14 +14,17 @@
     background-color: $middleblue;
     width: auto;
     height: 145px; 
+    padding: 10px;
         #article{
             h1{color: black}
+            h1{ margin: 0;}
         }
         img{
             width: 113px
         }
         margin-top: 10px;
         margin-bottom: 10px;
+
 
     }
     #section2{
@@ -32,14 +35,17 @@
     background-color: $middleblue;
     width: auto;
     height: 145px; 
+    padding: 10px;
         #article{
             h1{color: black}
+            h1{ margin: 0;}
         }
         img{
             width: 113px
         }
         margin-top: 10px;
         margin-bottom: 10px;
+
 
     }
 
@@ -48,9 +54,12 @@
         border: none;
         padding: 4px 11px; 
         a{color: white}
+        margin-left: 10px;
 
         a:link{ text-decoration: none;}
+        a:hover{text-decoration: underline;}
     }
+    button:hover{background-color: $neonpurple;}
 
     @include md{
         grid-template-columns: 16px 1fr 1fr 16px;
@@ -64,6 +73,17 @@
     }
 
     @include lg{
+        grid-template-columns: 16px 1fr 1fr 16px;
+        grid-template-areas: ". section1 section2 .";
+        #section2{
+            margin-right: 16px; 
+        }
+        #section1{
+            margin-left: 16px;
+        }
+    }
+
+    @include xl{
         grid-template-columns: 16px 1fr 1fr 16px;
         grid-template-areas: ". section1 section2 .";
         #section2{

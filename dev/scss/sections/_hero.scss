@@ -16,6 +16,7 @@
     justify-content: space-between; 
     background-color: $darkpurple;
     padding: 12px;
+    padding-top: 17px;
     h4{ margin: 0; }
     h6{ margin: 0; }
         #which-service {
@@ -24,6 +25,7 @@
             h6{color: white}
         }
         a{color: white}
+        a:hover{ text-decoration: underline;}
         img{width: 14.31px}
     }
     
@@ -33,9 +35,10 @@
     justify-content: space-between; 
     background-color: $lightpurple;
     padding: 12px;
+    padding-top: 17px;
     h6{ margin: 0; }
     p{ margin: 0; }
-    p{ padding-top: 15px;}
+    p{ padding-top: 5px;}
          #location {
               grid-area: location;
               background-color: $lightpurple;
@@ -43,6 +46,7 @@
              p{color: white}
          }
          a{color: white}
+         a:hover{ text-decoration: underline;}
          img{width: 14.31px}
     }
    
@@ -55,8 +59,22 @@
     }
 
     @include lg {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "which-service location";
+  
+    }
+
+    @include xl {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "which-service location";
+        #two{
+            padding-right: 200px;
+        }
+
+        #one{
+            padding-left: 200px;
+        }
     }
 }
