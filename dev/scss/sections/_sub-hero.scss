@@ -5,6 +5,7 @@
     "section1"
     "section2";
     
+
     #section1{
     display: flex; 
     align-items: center;
@@ -15,12 +16,6 @@
     height: 145px; 
         #article{
             h1{color: black}
-            button{
-                background-color: $darkpurple;
-                border: none;
-                padding: 4px 11px; 
-                a{color: white}
-            }
         }
         img{
             width: 113px
@@ -39,12 +34,6 @@
     height: 145px; 
         #article{
             h1{color: black}
-            button{
-                background-color: $darkpurple;
-                border: none;
-                padding: 4px 11px; 
-                a{color: white}
-            }
         }
         img{
             width: 113px
@@ -52,6 +41,15 @@
         margin-top: 10px;
         margin-bottom: 10px;
 
+    }
+
+    button{
+        background-color: $darkpurple;
+        border: none;
+        padding: 4px 11px; 
+        a{color: white}
+
+        a:link{ text-decoration: none;}
     }
 
     @include md{

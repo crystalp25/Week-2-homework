@@ -325,6 +325,11 @@ img {
 /* =============
     Typography
 ============= */
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 25px; }
+
 /* =============
     Buttons
 ============= */
@@ -379,9 +384,13 @@ header {
         padding: 6px 11px 6px 11px; }
 
 #footer {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   background-color: #618AB4; }
+  #footer article .con {
+    border-bottom: 1px solid #C8C7BC; }
+  #footer article .mas {
+    border-bottom: 1px solid #C8C7BC; }
   #footer div img {
     width: 20px;
     height: auto; }
@@ -485,7 +494,7 @@ header {
   flex-direction: column;
   gap: 25px; }
   #whats-new article aside .textdetail {
-    background-color: #C0D1E1;
+    background-color: #E4EEF8;
     padding: 15px; }
     #whats-new article aside .textdetail h2 {
       margin: 0; }
@@ -529,12 +538,6 @@ header {
     margin-bottom: 10px; }
     #sub-hero #section1 #article h1 {
       color: black; }
-    #sub-hero #section1 #article button {
-      background-color: #7A81C3;
-      border: none;
-      padding: 4px 11px; }
-      #sub-hero #section1 #article button a {
-        color: white; }
     #sub-hero #section1 img {
       width: 113px; }
   #sub-hero #section2 {
@@ -549,14 +552,16 @@ header {
     margin-bottom: 10px; }
     #sub-hero #section2 #article h1 {
       color: black; }
-    #sub-hero #section2 #article button {
-      background-color: #7A81C3;
-      border: none;
-      padding: 4px 11px; }
-      #sub-hero #section2 #article button a {
-        color: white; }
     #sub-hero #section2 img {
       width: 113px; }
+  #sub-hero button {
+    background-color: #7A81C3;
+    border: none;
+    padding: 4px 11px; }
+    #sub-hero button a {
+      color: white; }
+    #sub-hero button a:link {
+      text-decoration: none; }
   @media (min-width: 768px) {
     #sub-hero {
       grid-template-columns: 16px 1fr 1fr 16px;
