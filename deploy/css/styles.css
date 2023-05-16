@@ -327,8 +327,48 @@ img {
 ============= */
 h1 {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 31px; }
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 27px; }
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 37px; }
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 25px; }
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px; }
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px; }
+
+b {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px; }
 
 /* =============
     Buttons
@@ -407,6 +447,14 @@ header {
   #footer aside img {
     width: 20px;
     height: auto; }
+  #footer aside button {
+    background-color: #7A81C3;
+    border: none;
+    padding: 4px 12px; }
+    #footer aside button a {
+      color: white; }
+    #footer aside button a:link {
+      text-decoration: none; }
 
 #gallery {
   display: grid;
@@ -466,12 +514,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #7A81C3; }
+    background-color: #7A81C3;
+    padding: 12px; }
+    #selection #one h4 {
+      margin: 0; }
+    #selection #one h6 {
+      margin: 0; }
     #selection #one #which-service {
       grid-area: which-service; }
-      #selection #one #which-service h2 {
+      #selection #one #which-service h4 {
         color: white; }
-      #selection #one #which-service p {
+      #selection #one #which-service h6 {
         color: white; }
     #selection #one a {
       color: white; }
@@ -481,16 +534,27 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #959BD3; }
+    background-color: #959BD3;
+    padding: 12px; }
+    #selection #two h6 {
+      margin: 0; }
+    #selection #two p {
+      margin: 0; }
+    #selection #two p {
+      padding-top: 15px; }
     #selection #two #location {
       grid-area: location;
       background-color: #959BD3; }
-      #selection #two #location h4 {
+      #selection #two #location h6 {
+        color: white; }
+      #selection #two #location p {
         color: white; }
     #selection #two a {
       color: white; }
     #selection #two img {
       width: 14.31px; }
+  #selection a:link {
+    text-decoration: none; }
   @media (min-width: 768px) {
     #selection {
       grid-template-columns: 1fr 2fr;
@@ -503,6 +567,14 @@ header {
   display: flex;
   flex-direction: column;
   gap: 25px; }
+  #whats-new article button {
+    background-color: #7A81C3;
+    border: none;
+    padding: 4px 12px; }
+    #whats-new article button a {
+      color: white; }
+    #whats-new article button a:link {
+      text-decoration: none; }
   #whats-new article aside .textdetail {
     background-color: #E4EEF8;
     padding: 15px; }
