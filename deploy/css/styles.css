@@ -454,6 +454,12 @@ header {
       border-bottom: 1px solid #C8C7BC; }
     #footer article aside {
       margin: 0; }
+    #footer article div h6 {
+      margin: 0;
+      padding: 16px; }
+    #footer article div h5 {
+      margin: 0;
+      padding: 16px; }
   #footer .news {
     display: flex;
     flex-direction: column;
