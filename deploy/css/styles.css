@@ -436,16 +436,23 @@ header {
 #footer {
   display: flex;
   flex-direction: column;
-  background-color: #618AB4; }
+  background-color: #618AB4;
+  color: #C8C7BC;
+  padding-top: 20px; }
   #footer aside {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start; }
-  #footer article .con {
-    border-bottom: 1px solid #C8C7BC; }
-  #footer article .mas {
-    border-bottom: 1px solid #C8C7BC; }
+  #footer article {
+    padding-top: 20px;
+    margin-left: 20px; }
+    #footer article .con {
+      border-bottom: 1px solid #C8C7BC; }
+    #footer article .mas {
+      border-bottom: 1px solid #C8C7BC; }
+    #footer article aside {
+      margin: 0; }
   #footer .news {
     display: flex;
     flex-direction: column;
@@ -517,7 +524,8 @@ header {
     height: auto; }
   #footer aside img {
     width: 20px;
-    height: auto; }
+    height: auto;
+    padding-right: 10px; }
   #footer aside button {
     background-color: #7A81C3;
     border: none;

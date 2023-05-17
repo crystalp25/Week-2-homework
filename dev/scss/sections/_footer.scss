@@ -2,6 +2,8 @@
     display: flex; 
     flex-direction: column; 
     background-color: $darkblue;
+    color: $grey;
+    padding-top: 20px;
 
     aside{
         display: flex;
@@ -9,17 +11,23 @@
         align-items: center;
         justify-content: flex-start; 
     }
+
     article{
+        padding-top: 20px;
+        margin-left: 20px;
+
         .con{
             border-bottom: 1px solid $grey;
 
         }
         .mas{
             border-bottom: 1px solid $grey;}
-    }
 
-    article{
+            aside{
+                margin: 0;
+            }
 
+        
     }
     
     .news{
@@ -131,7 +139,9 @@
         img{
             width: 20px; 
             height: auto; 
+            padding-right: 10px;
         }
+        
         button{
             background-color: $darkpurple;
             border: none;
